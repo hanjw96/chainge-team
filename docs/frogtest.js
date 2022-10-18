@@ -31,13 +31,13 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_79 = function() {
-	this.initialize(img.CachedBmp_79);
+(lib.CachedBmp_81 = function() {
+	this.initialize(img.CachedBmp_81);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3172,2332);
 
 
-(lib.CachedBmp_78 = function() {
+(lib.CachedBmp_80 = function() {
 	this.initialize(ss["frogtest_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -2415,7 +2415,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(13.7,-225.3,1.5231,1.5231,0,0,0,136.7,212.5);
 	this.instance_5.compositeOperation = "overlay";
 
-	this.instance_6 = new lib.CachedBmp_79();
+	this.instance_6 = new lib.CachedBmp_81();
 	this.instance_6.setTransform(-793.15,-583.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -2465,7 +2465,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(3.45,-37.9,0.3763,0.2569,0,0,0,136.8,212.9);
 	this.instance_5.compositeOperation = "overlay";
 
-	this.instance_6 = new lib.CachedBmp_78();
+	this.instance_6 = new lib.CachedBmp_80();
 	this.instance_6.setTransform(-196,-98.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -3064,12 +3064,12 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {endgame:94,Main:93};
+	props.labels = {endgame:100,Main:93};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [44,93,94];
+	this.actionFrames = [44,93,100];
 	// timeline functions:
 	this.frame_44 = function() {
 		this.stop();
@@ -3176,12 +3176,12 @@ if (reversed == null) { reversed = false; }
 			_this.Main.tong.gotoAndPlay('triggerT');}
 		});
 	}
-	this.frame_94 = function() {
+	this.frame_100 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(44).call(this.frame_44).wait(49).call(this.frame_93).wait(1).call(this.frame_94).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this).wait(44).call(this.frame_44).wait(49).call(this.frame_93).wait(7).call(this.frame_100).wait(54));
 
 	// Isolation_Mode
 	this.instance = new lib.Tween78("synched",0);
@@ -3413,7 +3413,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_79.png", id:"CachedBmp_79"},
+		{src:"images/CachedBmp_81.png", id:"CachedBmp_81"},
 		{src:"images/CachedBmp_27.png", id:"CachedBmp_27"},
 		{src:"images/CachedBmp_26.png", id:"CachedBmp_26"},
 		{src:"images/Image.png", id:"Image"},
