@@ -31,13 +31,13 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_83 = function() {
-	this.initialize(img.CachedBmp_83);
+(lib.CachedBmp_89 = function() {
+	this.initialize(img.CachedBmp_89);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3172,2332);
 
 
-(lib.CachedBmp_82 = function() {
+(lib.CachedBmp_88 = function() {
 	this.initialize(ss["frogtest_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -2415,7 +2415,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(13.7,-225.3,1.5231,1.5231,0,0,0,136.7,212.5);
 	this.instance_5.compositeOperation = "overlay";
 
-	this.instance_6 = new lib.CachedBmp_83();
+	this.instance_6 = new lib.CachedBmp_89();
 	this.instance_6.setTransform(-793.15,-583.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -2465,7 +2465,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(3.45,-37.9,0.3763,0.2569,0,0,0,136.8,212.9);
 	this.instance_5.compositeOperation = "overlay";
 
-	this.instance_6 = new lib.CachedBmp_82();
+	this.instance_6 = new lib.CachedBmp_88();
 	this.instance_6.setTransform(-196,-98.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -3064,7 +3064,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {endgame:94,"endgame":100,Main:93};
+	props.labels = {endgame:94,Main:93};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -3413,7 +3413,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_83.png", id:"CachedBmp_83"},
+		{src:"images/CachedBmp_89.png", id:"CachedBmp_89"},
 		{src:"images/CachedBmp_27.png", id:"CachedBmp_27"},
 		{src:"images/CachedBmp_26.png", id:"CachedBmp_26"},
 		{src:"images/Image.png", id:"Image"},
